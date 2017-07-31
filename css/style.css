@@ -41,6 +41,10 @@ body, html {
     color: #ddd;
 
 }
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
 .ptext {
     position: absolute;
     top: 50%;
@@ -51,11 +55,11 @@ body, html {
     letter-spacing: 8px;
     text-transform: uppercase;
 }
-.ptext, .border {
+.ptext .border {
     background-color: #111;
     color: #fff;
     padding: 20px;
 }
-.ptext, .border, .trans {
+.ptext .border.trans {
     background-color: transparent;
 }
